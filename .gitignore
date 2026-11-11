@@ -1,0 +1,12 @@
+# candidate-pack material and all training data stay out of the repo
+data/
+ASSIGNMENT.md
+SCHEMA.md
+score.py
+# training artefacts (the final adapter is committed under adapter/)
+runs/
+modal_out/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

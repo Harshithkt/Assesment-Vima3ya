@@ -1,0 +1,16 @@
+{
+ "drop_dev_leak": 45,
+ "drop_duplicate": 91,
+ "drop_junk": 10,
+ "fix_amount": 25,
+ "fix_date_format": 30,
+ "fix_prio_key": 70,
+ "fix_priority": 60,
+ "fix_truncated": 25,
+ "fix_txn_id_format": 20,
+ "rows_dropped": 146,
+ "rows_fixed": 200,
+ "rows_in": 1445,
+ "rows_out": 1299,
+ "unresolved_channel": 1
+}

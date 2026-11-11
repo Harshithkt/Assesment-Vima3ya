@@ -1,0 +1,347 @@
+id,action,reason
+tr-00008,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00013,fix,"priority P1 -> P3 (category=kyc, amount=None, legal_threat=False)"
+tr-00018,fix,"priority P1 -> P3 (category=offers, amount=25000, legal_threat=False)"
+tr-00020,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '02/09/2026' in old DD/MM/YYYY format -> '2026-09-02'
+tr-00023,fix,"priority P1 -> P3 (category=kyc, amount=None, legal_threat=False)"
+tr-00034,drop,junk ticket body 'test test 123' with a fabricated non-empty label
+tr-00045,fix,"priority P3 -> P1 (category=fraud, amount=1159400, legal_threat=False)"
+tr-00049,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00058,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '26/08/2026' in old DD/MM/YYYY format -> '2026-08-26'
+tr-00059,fix,"priority P1 -> P3 (category=refund, amount=370000, legal_threat=False)"
+tr-00060,fix,label JSON truncated after 80 chars; rebuilt from category + SCHEMA rules (4 surviving fields all agree)
+tr-00065,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00071,fix,txn_id 'NP-9718716109' not normalised -> 'NP9718716109'
+tr-00072,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00073,fix,"amount_paise 168787 -> 16878725 (label is in rupees, not paise)"
+tr-00074,drop,duplicate of tr-00025 (identical ticket up to whitespace/'Thx'; same label)
+tr-00077,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules; txn_date '29/07/2026' in old DD/MM/YYYY format -> '2026-07-29'
+tr-00086,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00095,fix,label JSON truncated after 98 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00103,drop,duplicate of tr-00006 (identical ticket up to whitespace/'Thx'; same label)
+tr-00114,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00120,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00123,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '21/07/2026' in old DD/MM/YYYY format -> '2026-07-21'
+tr-00125,fix,label JSON truncated after 101 chars; rebuilt from category + SCHEMA rules (4 surviving fields all agree)
+tr-00129,fix,"priority P3 -> P2 (category=payment_failed, amount=4619100, legal_threat=False)"
+tr-00130,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00144,fix,"amount_paise 167 -> 16700 (label is in rupees, not paise)"
+tr-00146,fix,"priority P1 -> P3 (category=offers, amount=None, legal_threat=False)"
+tr-00147,fix,txn_id 'np9891267518' not normalised -> 'NP9891267518'
+tr-00151,fix,txn_id 'NP-2339259875' not normalised -> 'NP2339259875'
+tr-00153,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '04/09/2026' in old DD/MM/YYYY format -> '2026-09-04'
+tr-00154,fix,"priority P3 -> P2 (category=payment_failed, amount=4750000, legal_threat=False)"
+tr-00156,drop,duplicate of tr-00030 (identical ticket up to whitespace/'Thx'; same label)
+tr-00160,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '08/08/2026' in old DD/MM/YYYY format -> '2026-08-08'
+tr-00162,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00164,drop,junk ticket body 'test' with a fabricated non-empty label
+tr-00167,fix,"amount_paise 267 -> 26700 (label is in rupees, not paise)"
+tr-00172,fix,label JSON truncated after 84 chars; rebuilt from category + SCHEMA rules (4 surviving fields all agree)
+tr-00178,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00184,fix,"priority P3 -> P1 (category=kyc, amount=None, legal_threat=True)"
+tr-00187,fix,"amount_paise 220000 -> 22000000 (label is in rupees, not paise)"
+tr-00192,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-00199,fix,"amount_paise 674 -> 67400 (label is in rupees, not paise)"
+tr-00208,drop,duplicate of tr-00150 (identical ticket up to whitespace/'Thx'; same label)
+tr-00211,drop,duplicate of tr-00137 (identical ticket up to whitespace/'Thx'; same label)
+tr-00212,fix,"priority P3 -> P1 (category=payment_failed, amount=11000000, legal_threat=True)"
+tr-00219,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00220,fix,"priority P3 -> P2 (category=refund, amount=1938900, legal_threat=False)"
+tr-00222,fix,"amount_paise 594 -> 59450 (label is in rupees, not paise)"
+tr-00223,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00225,fix,"priority P1 -> P3 (category=offers, amount=None, legal_threat=False)"
+tr-00226,drop,duplicate of tr-00070 (identical ticket up to whitespace/'Thx'; same label)
+tr-00249,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules; txn_date '23/08/2026' in old DD/MM/YYYY format -> '2026-08-23'
+tr-00258,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00261,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00263,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '11/07/2026' in old DD/MM/YYYY format -> '2026-07-11'
+tr-00264,fix,"amount_paise 702 -> 70200 (label is in rupees, not paise)"
+tr-00266,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00267,fix,label JSON truncated after 101 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00280,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00294,fix,"priority P3 -> P2 (category=payment_failed, amount=4653000, legal_threat=False)"
+tr-00297,drop,duplicate of tr-00142 (identical ticket up to whitespace/'Thx'; same label)
+tr-00306,fix,"priority P1 -> P3 (category=kyc, amount=None, legal_threat=False)"
+tr-00307,drop,duplicate of tr-00207 (identical ticket up to whitespace/'Thx'; same label)
+tr-00309,fix,"priority P1 -> P3 (category=other, amount=None, legal_threat=False)"
+tr-00312,fix,"priority P1 -> P3 (category=offers, amount=None, legal_threat=False)"
+tr-00317,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00318,drop,junk ticket body '' with a fabricated non-empty label
+tr-00320,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00328,fix,"amount_paise 667 -> 66750 (label is in rupees, not paise)"
+tr-00330,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00340,drop,duplicate of tr-00299 (identical ticket up to whitespace/'Thx'; same label)
+tr-00343,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00346,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-00347,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '07/08/2026' in old DD/MM/YYYY format -> '2026-08-07'
+tr-00349,drop,duplicate of tr-00217 (identical ticket up to whitespace/'Thx'; same label)
+tr-00355,fix,"priority P3 -> P2 (category=account_access, amount=None, legal_threat=False)"
+tr-00357,fix,label JSON truncated after 113 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00358,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00364,drop,duplicate of tr-00173 (identical ticket up to whitespace/'Thx'; same label)
+tr-00365,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00370,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '10/09/2026' in old DD/MM/YYYY format -> '2026-09-10'
+tr-00373,drop,duplicate of tr-00345 (identical ticket up to whitespace/'Thx'; same label)
+tr-00379,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00380,fix,"priority P1 -> P3 (category=refund, amount=42400, legal_threat=False)"
+tr-00382,fix,"amount_paise 46094 -> 4609400 (label is in rupees, not paise)"
+tr-00385,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00391,fix,txn_id 'NP 9255627510' not normalised -> 'NP9255627510'
+tr-00397,drop,duplicate of tr-00078 (identical ticket up to whitespace/'Thx'; same label)
+tr-00407,fix,"amount_paise 359 -> 35900 (label is in rupees, not paise)"
+tr-00413,fix,"priority P1 -> P3 (category=payment_failed, amount=281000, legal_threat=False)"
+tr-00420,fix,txn_id 'np 81633 47892' not normalised -> 'NP8163347892'
+tr-00424,fix,"priority P3 -> P1 (category=payment_failed, amount=3250100, legal_threat=True)"
+tr-00427,fix,"priority P3 -> P1 (category=refund, amount=27498100, legal_threat=False)"
+tr-00436,drop,duplicate of tr-00175 (identical ticket up to whitespace/'Thx'; same label)
+tr-00452,fix,"priority P1 -> P3 (category=payment_failed, amount=None, legal_threat=False)"
+tr-00454,drop,duplicate of tr-00444 (identical ticket up to whitespace/'Thx'; same label)
+tr-00456,drop,duplicate of tr-00079 (identical ticket up to whitespace/'Thx'; same label)
+tr-00457,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00460,fix,txn_id 'NP 6949410784' not normalised -> 'NP6949410784'
+tr-00461,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-00470,fix,txn_id 'np 11245 46709' not normalised -> 'NP1124546709'
+tr-00472,fix,"amount_paise 5815 -> 581500 (label is in rupees, not paise)"
+tr-00473,drop,duplicate of tr-00009 (identical ticket up to whitespace/'Thx'; same label)
+tr-00475,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-00476,drop,duplicate of tr-00191 (identical ticket up to whitespace/'Thx'; same label)
+tr-00478,fix,label JSON truncated after 118 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00485,fix,"priority P1 -> P3 (category=payment_failed, amount=39400, legal_threat=False)"
+tr-00496,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00497,fix,label JSON truncated after 85 chars; rebuilt from category + SCHEMA rules (3 surviving fields all agree)
+tr-00502,drop,duplicate of tr-00323 (identical ticket up to whitespace/'Thx'; same label)
+tr-00503,fix,"priority P1 -> P3 (category=kyc, amount=None, legal_threat=False)"
+tr-00505,fix,"priority P1 -> P3 (category=kyc, amount=None, legal_threat=False)"
+tr-00508,fix,"priority P1 -> P3 (category=kyc, amount=None, legal_threat=False)"
+tr-00514,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00516,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-00523,fix,"priority P1 -> P3 (category=refund, amount=49500, legal_threat=False)"
+tr-00532,drop,duplicate of tr-00435 (identical ticket up to whitespace/'Thx'; same label)
+tr-00533,fix,"priority P1 -> P3 (category=refund, amount=54350, legal_threat=False)"
+tr-00534,drop,duplicate of tr-00251 (identical ticket up to whitespace/'Thx'; same label)
+tr-00540,drop,duplicate of tr-00429 (identical ticket up to whitespace/'Thx'; same label)
+tr-00546,drop,duplicate of tr-00490 (identical ticket up to whitespace/'Thx'; same label)
+tr-00555,drop,junk ticket body 'test test 123' with a fabricated non-empty label
+tr-00556,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '13/07/2026' in old DD/MM/YYYY format -> '2026-07-13'
+tr-00558,fix,label JSON truncated after 95 chars; rebuilt from category + SCHEMA rules (3 surviving fields all agree)
+tr-00559,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00560,fix,"amount_paise 1100 -> 110000 (label is in rupees, not paise)"
+tr-00567,fix,"priority P3 -> P2 (category=account_access, amount=None, legal_threat=False)"
+tr-00570,fix,txn_id 'np 87267 97611' not normalised -> 'NP8726797611'
+tr-00573,drop,duplicate of tr-00203 (identical ticket up to whitespace/'Thx'; same label)
+tr-00577,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '06/08/2026' in old DD/MM/YYYY format -> '2026-08-06'
+tr-00581,drop,duplicate of tr-00108 (identical ticket up to whitespace/'Thx'; same label)
+tr-00583,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00585,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00588,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00589,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00595,fix,txn_id 'np3247474643' not normalised -> 'NP3247474643'
+tr-00602,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '29/06/2026' in old DD/MM/YYYY format -> '2026-06-29'
+tr-00605,fix,label JSON truncated after 83 chars; rebuilt from category + SCHEMA rules (3 surviving fields all agree)
+tr-00606,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-00609,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00610,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00614,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00616,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00622,fix,"amount_paise 3702 -> 370200 (label is in rupees, not paise)"
+tr-00628,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '13/06/2026' in old DD/MM/YYYY format -> '2026-06-13'
+tr-00638,fix,"priority P3 -> P1 (category=fraud, amount=3790000, legal_threat=False)"
+tr-00648,fix,"priority P3 -> P2 (category=account_access, amount=None, legal_threat=False)"
+tr-00649,fix,txn_id 'NP-8919677483' not normalised -> 'NP8919677483'
+tr-00650,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00653,fix,"amount_paise 1179 -> 117900 (label is in rupees, not paise)"
+tr-00656,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '20/06/2026' in old DD/MM/YYYY format -> '2026-06-20'
+tr-00665,drop,duplicate of tr-00322 (identical ticket up to whitespace/'Thx'; same label)
+tr-00669,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00670,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules; txn_date '20/08/2026' in old DD/MM/YYYY format -> '2026-08-20'
+tr-00674,fix,label JSON truncated after 101 chars; rebuilt from category + SCHEMA rules (4 surviving fields all agree)
+tr-00677,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '14/08/2026' in old DD/MM/YYYY format -> '2026-08-14'
+tr-00681,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00685,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00688,fix,"amount_paise 209 -> 20900 (label is in rupees, not paise)"
+tr-00689,fix,"priority P1 -> P3 (category=payment_failed, amount=None, legal_threat=False)"
+tr-00690,drop,duplicate of tr-00499 (identical ticket up to whitespace/'Thx'; same label)
+tr-00691,fix,"amount_paise 678 -> 67800 (label is in rupees, not paise)"
+tr-00701,drop,duplicate of tr-00384 (identical ticket up to whitespace/'Thx'; same label)
+tr-00704,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '03/06/2026' in old DD/MM/YYYY format -> '2026-06-03'
+tr-00706,fix,"priority P3 -> P2 (category=payment_failed, amount=1078500, legal_threat=False)"
+tr-00707,fix,"priority P3 -> P2 (category=refund, amount=4750600, legal_threat=False)"
+tr-00716,drop,duplicate of tr-00149 (identical ticket up to whitespace/'Thx'; same label)
+tr-00717,fix,"priority P1 -> P3 (category=payment_failed, amount=91100, legal_threat=False)"
+tr-00727,fix,"amount_paise 17914 -> 1791499 (label is in rupees, not paise)"
+tr-00735,fix,label JSON truncated after 134 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00744,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-00745,fix,"priority P1 -> P3 (category=kyc, amount=None, legal_threat=False)"
+tr-00746,fix,"priority P3 -> P2 (category=account_access, amount=None, legal_threat=False)"
+tr-00755,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00757,fix,"priority P1 -> P3 (category=refund, amount=None, legal_threat=False)"
+tr-00761,drop,duplicate of tr-00127 (identical ticket up to whitespace/'Thx'; same label)
+tr-00765,fix,label JSON truncated after 104 chars; rebuilt from category + SCHEMA rules (4 surviving fields all agree)
+tr-00771,fix,txn_id 'np9038808761' not normalised -> 'NP9038808761'
+tr-00773,drop,duplicate of tr-00186 (identical ticket up to whitespace/'Thx'; same label)
+tr-00778,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00782,fix,"priority P1 -> P3 (category=kyc, amount=None, legal_threat=False)"
+tr-00783,drop,duplicate of tr-00441 (identical ticket up to whitespace/'Thx'; same label)
+tr-00789,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00790,drop,junk ticket body 'asdf asdf' with a fabricated non-empty label
+tr-00791,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '31/08/2026' in old DD/MM/YYYY format -> '2026-08-31'
+tr-00794,drop,junk ticket body 'test test 123' with a fabricated non-empty label
+tr-00795,fix,"amount_paise 34300 -> 3430000 (label is in rupees, not paise)"
+tr-00800,drop,duplicate of tr-00530 (identical ticket up to whitespace/'Thx'; same label)
+tr-00802,fix,"priority P1 -> P3 (category=offers, amount=None, legal_threat=False)"
+tr-00809,fix,label JSON truncated after 137 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00811,drop,duplicate of tr-00052 (identical ticket up to whitespace/'Thx'; same label)
+tr-00820,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '31/05/2026' in old DD/MM/YYYY format -> '2026-05-31'
+tr-00824,fix,label JSON truncated after 63 chars; rebuilt from category + SCHEMA rules (3 surviving fields all agree)
+tr-00838,fix,txn_id 'NP 6186175115' not normalised -> 'NP6186175115'
+tr-00839,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules; txn_date '17/09/2026' in old DD/MM/YYYY format -> '2026-09-17'
+tr-00840,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00843,drop,duplicate of tr-00479 (identical ticket up to whitespace/'Thx'; same label)
+tr-00845,fix,"amount_paise 2999 -> 299900 (label is in rupees, not paise)"
+tr-00846,fix,label JSON truncated after 78 chars; rebuilt from category + SCHEMA rules (3 surviving fields all agree)
+tr-00850,drop,duplicate of tr-00575 (identical ticket up to whitespace/'Thx'; same label)
+tr-00852,fix,"priority P3 -> P1 (category=payment_failed, amount=1915100, legal_threat=True)"
+tr-00854,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00861,drop,duplicate of tr-00764 (identical ticket up to whitespace/'Thx'; same label)
+tr-00864,drop,duplicate of tr-00038 (identical ticket up to whitespace/'Thx'; same label)
+tr-00870,drop,duplicate of tr-00099 (identical ticket up to whitespace/'Thx'; same label)
+tr-00879,fix,"priority P1 -> P3 (category=payment_failed, amount=76600, legal_threat=False)"
+tr-00880,drop,duplicate of tr-00451 (identical ticket up to whitespace/'Thx'; same label)
+tr-00888,fix,txn_id 'np7786684387' not normalised -> 'NP7786684387'
+tr-00890,fix,"priority P3 -> P1 (category=payment_failed, amount=459600, legal_threat=True)"
+tr-00899,fix,txn_id 'NP-1325500121' not normalised -> 'NP1325500121'
+tr-00900,drop,duplicate of tr-00432 (identical ticket up to whitespace/'Thx'; same label)
+tr-00907,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00908,fix,txn_id 'np 45856 96868' not normalised -> 'NP4585696868'
+tr-00913,drop,duplicate of tr-00181 (identical ticket up to whitespace/'Thx'; same label)
+tr-00920,fix,"amount_paise 853 -> 85300 (label is in rupees, not paise)"
+tr-00922,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-00932,fix,"priority P3 -> P2 (category=payment_failed, amount=2970000, legal_threat=False)"
+tr-00933,fix,"priority P1 -> P3 (category=payment_failed, amount=100000, legal_threat=False)"
+tr-00936,drop,duplicate of tr-00766 (identical ticket up to whitespace/'Thx'; same label)
+tr-00941,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00958,fix,label JSON truncated after 116 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00960,fix,label JSON truncated after 88 chars; rebuilt from category + SCHEMA rules (4 surviving fields all agree)
+tr-00967,fix,"priority P1 -> P3 (category=refund, amount=45900, legal_threat=False)"
+tr-00968,drop,duplicate of tr-00239 (identical ticket up to whitespace/'Thx'; same label)
+tr-00970,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-00975,fix,label JSON truncated after 84 chars; rebuilt from category + SCHEMA rules (3 surviving fields all agree)
+tr-00977,drop,duplicate of tr-00272 (identical ticket up to whitespace/'Thx'; same label)
+tr-00978,fix,label JSON truncated after 111 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00979,fix,label JSON truncated after 131 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-00980,fix,label JSON truncated after 77 chars; rebuilt from category + SCHEMA rules (3 surviving fields all agree)
+tr-00983,drop,duplicate of tr-00041 (identical ticket up to whitespace/'Thx'; same label)
+tr-00985,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '02/09/2026' in old DD/MM/YYYY format -> '2026-09-02'
+tr-00986,fix,"amount_paise 1975 -> 197500 (label is in rupees, not paise)"
+tr-00987,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01000,drop,duplicate of tr-00238 (identical ticket up to whitespace/'Thx'; same label)
+tr-01001,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01006,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01010,drop,duplicate of tr-00188 (identical ticket up to whitespace/'Thx'; same label)
+tr-01011,drop,duplicate of tr-00221 (identical ticket up to whitespace/'Thx'; same label)
+tr-01012,fix,txn_id 'np 78549 05014' not normalised -> 'NP7854905014'
+tr-01013,drop,duplicate of tr-00584 (identical ticket up to whitespace/'Thx'; same label)
+tr-01017,fix,"priority P3 -> P1 (category=offers, amount=None, legal_threat=True)"
+tr-01019,fix,"priority P3 -> P1 (category=fraud, amount=55200, legal_threat=False)"
+tr-01023,fix,"priority P3 -> P1 (category=payment_failed, amount=12562900, legal_threat=False)"
+tr-01028,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01030,drop,duplicate of tr-00342 (identical ticket up to whitespace/'Thx'; same label)
+tr-01031,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01032,drop,junk ticket body 'test' with a fabricated non-empty label
+tr-01033,drop,duplicate of tr-00135 (identical ticket up to whitespace/'Thx'; same label)
+tr-01042,drop,duplicate of tr-00774 (identical ticket up to whitespace/'Thx'; same label)
+tr-01044,drop,duplicate of tr-01016 (identical ticket up to whitespace/'Thx'; same label)
+tr-01046,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules; txn_date '25/06/2026' in old DD/MM/YYYY format -> '2026-06-25'
+tr-01048,fix,"priority P1 -> P3 (category=refund, amount=339625, legal_threat=False)"
+tr-01052,drop,duplicate of tr-00934 (identical ticket up to whitespace/'Thx'; same label)
+tr-01067,drop,duplicate of tr-00445 (identical ticket up to whitespace/'Thx'; same label)
+tr-01070,fix,label JSON truncated after 76 chars; rebuilt from category + SCHEMA rules (3 surviving fields all agree)
+tr-01078,drop,duplicate of tr-00051 (identical ticket up to whitespace/'Thx'; same label)
+tr-01083,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-01085,drop,duplicate of tr-00883 (identical ticket up to whitespace/'Thx'; same label)
+tr-01086,fix,"priority P3 -> P1 (category=other, amount=None, legal_threat=True)"
+tr-01087,fix,label JSON truncated after 87 chars; rebuilt from category + SCHEMA rules (4 surviving fields all agree)
+tr-01089,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01093,drop,duplicate of tr-00408 (identical ticket up to whitespace/'Thx'; same label)
+tr-01095,fix,"amount_paise 592 -> 59200 (label is in rupees, not paise)"
+tr-01102,drop,duplicate of tr-00458 (identical ticket up to whitespace/'Thx'; same label)
+tr-01104,drop,duplicate of tr-00954 (identical ticket up to whitespace/'Thx'; same label)
+tr-01108,drop,duplicate of tr-00632 (identical ticket up to whitespace/'Thx'; same label)
+tr-01109,fix,"priority P3 -> P2 (category=refund, amount=1590000, legal_threat=False)"
+tr-01112,drop,duplicate of tr-00057 (identical ticket up to whitespace/'Thx'; same label)
+tr-01115,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-01129,drop,duplicate of tr-00052 (identical ticket up to whitespace/'Thx'; same label)
+tr-01131,fix,"priority P3 -> P2 (category=account_access, amount=None, legal_threat=False)"
+tr-01133,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '25/07/2026' in old DD/MM/YYYY format -> '2026-07-25'
+tr-01134,drop,duplicate of tr-00446 (identical ticket up to whitespace/'Thx'; same label)
+tr-01135,drop,duplicate of tr-00686 (identical ticket up to whitespace/'Thx'; same label)
+tr-01136,fix,txn_id 'NP 5804974985' not normalised -> 'NP5804974985'
+tr-01138,drop,duplicate of tr-00165 (identical ticket up to whitespace/'Thx'; same label)
+tr-01139,drop,duplicate of tr-00354 (identical ticket up to whitespace/'Thx'; same label)
+tr-01141,drop,duplicate of tr-00356 (identical ticket up to whitespace/'Thx'; same label)
+tr-01143,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '12/09/2026' in old DD/MM/YYYY format -> '2026-09-12'
+tr-01146,fix,"priority P1 -> P3 (category=other, amount=None, legal_threat=False)"
+tr-01151,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules
+tr-01158,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '30/06/2026' in old DD/MM/YYYY format -> '2026-06-30'
+tr-01160,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01166,drop,junk ticket body 'asdf asdf' with a fabricated non-empty label
+tr-01170,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01172,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01176,drop,duplicate of tr-00148 (identical ticket up to whitespace/'Thx'; same label)
+tr-01178,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '09/08/2026' in old DD/MM/YYYY format -> '2026-08-09'
+tr-01183,drop,duplicate of tr-00617 (identical ticket up to whitespace/'Thx'; same label)
+tr-01186,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01188,fix,txn_id 'np0530288495' not normalised -> 'NP0530288495'
+tr-01199,fix,label JSON truncated after 106 chars; rebuilt from category + SCHEMA rules (5 surviving fields all agree)
+tr-01202,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01204,drop,duplicate of tr-00767 (identical ticket up to whitespace/'Thx'; same label)
+tr-01206,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01222,fix,"priority P1 -> P3 (category=offers, amount=34100, legal_threat=False)"
+tr-01238,fix,txn_id 'NP-7739480420' not normalised -> 'NP7739480420'
+tr-01239,drop,duplicate of tr-00842 (identical ticket up to whitespace/'Thx'; same label)
+tr-01241,drop,duplicate of tr-01233 (identical ticket up to whitespace/'Thx'; same label)
+tr-01246,drop,duplicate of tr-00851 (identical ticket up to whitespace/'Thx'; same label)
+tr-01248,drop,duplicate of tr-00856 (identical ticket up to whitespace/'Thx'; same label)
+tr-01250,drop,duplicate of tr-01058 (identical ticket up to whitespace/'Thx'; same label)
+tr-01260,drop,duplicate of tr-01054 (identical ticket up to whitespace/'Thx'; same label)
+tr-01273,drop,duplicate of tr-01014 (identical ticket up to whitespace/'Thx'; same label)
+tr-01274,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '23/07/2026' in old DD/MM/YYYY format -> '2026-07-23'
+tr-01275,drop,duplicate of tr-00947 (identical ticket up to whitespace/'Thx'; same label)
+tr-01286,fix,old-spec key 'prio'='medium' renamed to 'priority' and recomputed with v2 rules
+tr-01301,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01304,drop,junk ticket body 'test' with a fabricated non-empty label
+tr-01305,fix,"priority P3 -> P2 (category=refund, amount=1625100, legal_threat=False)"
+tr-01309,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01311,fix,"amount_paise 497 -> 49799 (label is in rupees, not paise)"
+tr-01313,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01314,drop,junk ticket body 'asdf asdf' with a fabricated non-empty label
+tr-01319,fix,"priority P3 -> P1 (category=payment_failed, amount=10012600, legal_threat=True)"
+tr-01326,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01331,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01338,drop,duplicate of tr-00591 (identical ticket up to whitespace/'Thx'; same label)
+tr-01339,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01343,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules; txn_date '05/07/2026' in old DD/MM/YYYY format -> '2026-07-05'
+tr-01348,drop,duplicate of tr-01308 (identical ticket up to whitespace/'Thx'; same label)
+tr-01349,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01350,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01355,fix,"amount_paise 467 -> 46700 (label is in rupees, not paise)"
+tr-01359,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01363,fix,txn_id 'np 25586 43472' not normalised -> 'NP2558643472'
+tr-01366,fix,old-spec key 'prio'='high' renamed to 'priority' and recomputed with v2 rules; txn_date '10/09/2026' in old DD/MM/YYYY format -> '2026-09-10'
+tr-01370,fix,"priority P3 -> P1 (category=fraud, amount=2518300, legal_threat=False)"
+tr-01375,fix,"amount_paise 31855 -> 3185500 (label is in rupees, not paise)"
+tr-01381,drop,duplicate of tr-00886 (identical ticket up to whitespace/'Thx'; same label)
+tr-01386,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01393,drop,duplicate of tr-00039 (identical ticket up to whitespace/'Thx'; same label)
+tr-01398,drop,duplicate of tr-00625 (identical ticket up to whitespace/'Thx'; same label)
+tr-01399,drop,duplicate of tr-00369 (identical ticket up to whitespace/'Thx'; same label)
+tr-01403,fix,"priority P3 -> P1 (category=account_access, amount=None, legal_threat=True)"
+tr-01407,fix,"priority P1 -> P3 (category=refund, amount=420700, legal_threat=False)"
+tr-01409,drop,duplicate of tr-01208 (identical ticket up to whitespace/'Thx'; same label)
+tr-01413,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01419,drop,duplicate of tr-00303 (identical ticket up to whitespace/'Thx'; same label)
+tr-01421,drop,same ticket as a dev row (after whitespace/'Thx' normalisation): dev leakage
+tr-01427,drop,duplicate of tr-01268 (identical ticket up to whitespace/'Thx'; same label)
+tr-01433,drop,duplicate of tr-00896 (identical ticket up to whitespace/'Thx'; same label)
+tr-01441,fix,old-spec key 'prio'='low' renamed to 'priority' and recomputed with v2 rules
+tr-01443,drop,duplicate of tr-01357 (identical ticket up to whitespace/'Thx'; same label)
